@@ -88,4 +88,89 @@ There are three ways
 
 Third way is the recommended version but when app hangs or crashes or erratic behavior you know now how to get out of it.
 
+
+## how it works
+
+now you know the code works, what code boilerplate has been added
+
+
+## let there be Hello World
+
+let us add some text and display it, one of the simplest to display message is Label or a alert Message, I dont want to create additional files or config, let us do it in a ruby way, from the RubyMotion console(REPL)
+
+
+     $ rake
+     Build ./build/iPhoneSimulator-5.0-Development
+     Simulate ./build/iPhoneSimulator-5.0-Development/hello.app
+     2012-05-12 08:43:50.545 hello[46454:f803] Applications are expected to     have a root view controller at the end of application launch
+     (main)>> hello = UIAlertView.new
+     => #<UIAlertView:0x8dac150>
+     (main)>> hello.message = "Hello World"
+     => "Hello World"
+     (main)>> hello.show
+     => #<UIAlertView:0x8dac150>
+
+ Did you see the message is now displayed on your simulator.
+
+can we change the message to something else, easy
+
+     (main)>> hello.message = "Thanks Laurent and Matz"
+     => "Thanks Laurent and Matz"
+
+ 
+
+what else can I do
+
+     => hello.methods
+     => [:"addTextFieldWithValue:label:", :titleLabel, :canBecomeFirstResponder, :numberOfRows, :table, :keyboard, :textField, :"setSubtitle:", :subtitle, :tableView, :dismiss, :"initWithTitle:buttons:defaultButtonIndex:delegate:context:", :"setNumberOfRows:", :"popupAlertAnimated:", :"setDimView:", :"setTitleMaxLineCount:", :"setRunsModal:", :"setBodyText:", :"setAlertSheetStyle:", :"buttonAtIndex:", :requiresPortraitOrientation, :textFieldCount, :buttons, :"layoutAnimated:", :"dismissAnimated:", :"popupAlertAnimated:atOffset:", :"presentSheetFromAboveView:", :"presentSheetFromBehindView:", :groupsTextFields, :"setGroupsTextFields:", :"setTaglineText:", :bodyText, :titleMaxLineCount, :"setBodyTextMaxLineCount:", :bodyMaxLineCount, :"setDefaultButton:", :defaultButton, :"setDestructiveButton:", :destructiveButton, :"addButtonWithTitle:label:", :"addButtonWithTitle:buttonClass:", :buttonCount, :"setTableShouldShowMinimumContent:", :tableShouldShowMinimumContent, :"setShowsOverSpringBoardAlerts:", :showsOverSpringBoardAlerts, :isBodyTextTruncated, :"presentSheetInView:", :"presentSheetToAboveView:", :backgroundSize, :alertSheetStyle, :"setDimsBackground:", :dimsBackground, :"setSuspendTag:", :suspendTag, :"setBlocksInteraction:", :blocksInteraction, :runsModal, :titleRect, :numberOfLinesInTitle, :"presentSheetFromButtonBar:", :"replaceAlert:", :"popupAlertAnimated:animationType:atOffset:", :"popupAlertAnimated:animationType:", :"setKeyboardShowsOnPopup:", :bodyTextLabel, :taglineTextLabel, :"setForceHorizontalButtonsLayout:", :forceHorizontalButtonsLayout, :resignFirstResponder, :becomeFirstResponder, :layout, :context, :"setContext:", :"initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:", :"showWithAnimationType:", :show, :cancelButtonIndex, :"dismissWithClickedButtonIndex:animated:", :isVisible, :"addButtonWithTitle:", :"setCancelButtonIndex:", :numberOfButtons, :"buttonTitleAtIndex:", :"textFieldAtIndex:", :"setMessage:", :"setDefaultButtonIndex:", :"initWithTitle:message:delegate:defaultButton:cancelButton:otherButtons:", :defaultButtonIndex, :firstOtherButtonIndex, :"setAlertViewStyle:", :alertViewStyle, :dealloc, :"initWithFrame:", :"setTitle:", :title, :"setDelegate:", :delegate, :message, :"resizeForKeyplaneSize:", :"drawRect:forViewPrintFormatter:", :viewPrintFormatter, :textInputView, :isAccessibilityElementByDefault, :isElementAccessibilityExposedToInterfaceBuilder, :textEffectsVisibilityLevel, :textEffectsVisibilityLevelWhenKey, :"compareTextEffectsOrdering:", :needsWebDocumentViewEventsDirectly, :"reduceWidth:", :"gestureEnded:", :"setGestureDelegate:", :"setEnabledGestures:", :"setValue:forGestureAttribute:", :"gestureStarted:", :"gestureChanged:", :"stateForGestureType:", :"animator:stopAnimation:", :"animator:startAnimation:", :"zoomToScale:", :"rotateToDegrees:", :canHandleGestures, :gestureDelegate, :enabledGestures, :"valueForGestureAttribute:", :"setRotationDegrees:duration:", :rotationDegrees, :"endEditing:", :useBlockyMagnificationInClassic, :scriptingInfoWithChildren, :recursiveDescription, :description, :"layoutSublayersOfLayer:", :"actionForLayer:forKey:", :"drawLayer:inContext:", :"setValue:forKey:", :gestureRecognizers, :removeAllGestureRecognizers, :"removeGestureRecognizer:", :"setGestureRecognizers:", :gesturesEnabled, :"setGesturesEnabled:", :deliversTouchesForGesturesToSuperview, :"setDeliversTouchesForGesturesToSuperview:", :"addGestureRecognizer:", :viewTraversalMark, :isInAnimatedVCTransition, :"setInAnimatedVCTransition:", :"setViewTraversalMark:", :skipsSubviewEnumeration, :"setSkipsSubviewEnumeration:", :frameOrigin, :"setFrameOrigin:", :"pointInside:forEvent:", :"hitTest:forEvent:", :"initWithSize:", :"setClipsSubviews:", :"createSnapshotWithRect:", :"setEnabled:", :isEnabled, :"setSize:", :size, :"addAnimation:forKey:", :"setNeedsDisplayOnBoundsChange:", :"setAlpha:", :"setContentScaleFactor:", :"setClearsContextBeforeDrawing:", :"setContentMode:", :"setContentStretch:", :"setClipsToBounds:", :clearsContextBeforeDrawing, :contentMode, :contentStretch, :clipsToBounds, :contentScaleFactor, :"setClearsContext:", :recursivelyForceDisplayIfNeeded, :visibleBounds, :"setFixedBackgroundPattern:", :isHiddenOrHasHiddenAncestor, :"setContentsPosition:", :"newSnapshotWithRect:", :forceDisplayIfNeeded, :alpha, :needsDisplay, :needsDisplayOnBoundsChange, :"setBackgroundColor:", :backgroundColor, :"setHidden:", :isHidden, :"setOpaque:", :isOpaque, :setNeedsDisplay, :"drawRect:", :"setNeedsDisplayInRect:", :didMoveToWindow, :layoutSubviews, :"sendSubviewToBack:", :"bringSubviewToFront:", :"containsView:", :layoutBelowIfNeeded, :"willMoveToWindow:", :deferredBecomeFirstResponder, :"movedFromSuperview:", :didMoveToSuperview, :"viewWithTag:", :"insertSubview:atIndex:", :"exchangeSubviewAtIndex:withSubviewAtIndex:", :"insertSubview:belowSubview:", :"insertSubview:aboveSubview:", :"didAddSubview:", :"willMoveToSuperview:", :"insertSubview:below:", :"insertSubview:above:", :"movedToSuperview:", :"viewWillMoveToSuperview:", :viewDidMoveToSuperview, :"movedFromWindow:", :"movedToWindow:", :"isDescendantOfView:", :window, :subviews, :setNeedsLayout, :superview, :removeFromSuperview, :"willRemoveSubview:", :layoutIfNeeded, :"addSubview:", :"sizeThatFits:", :"hitTest:withEvent:", :isMultipleTouchEnabled, :"resizeSubviewsWithOldSize:", :"pointInside:withEvent:", :"resizeWithOldSuperviewSize:", :autoresizingMask, :"setMultipleTouchEnabled:", :"setExclusiveTouch:", :isExclusiveTouch, :"convertSize:toView:", :"convertSize:fromView:", :hitRect, :"setFrame:forFields:", :"setRotationBy:", :"setAutoresizesSubviews:", :autoresizesSubviews, :sizeToFit, :origin, :"setOrigin:", :extent, :"setAutoresizingMask:", :"convertRect:toView:", :"convertRect:fromView:", :bounds, :transform, :position, :"setFrame:", :"setTransform:", :"setBounds:", :"convertPoint:fromView:", :"convertPoint:toView:", :frame, :center, :"setCenter:", :"setPosition:", :"setUserInteractionEnabled:", :charge, :"setTag:", :isUserInteractionEnabled, :cancelTouchTracking, :cancelMouseTracking, :tapDelegate, :"setCharge:", :"setTapDelegate:", :"startHeartbeat:inRunLoopMode:", :"stopHeartbeat:", :canHandleSwipes, :"swipe:withEvent:", :tag, :init, :layer, :nextResponder, :"initWithCoder:", :"encodeWithCoder:", :defaultFirstResponder, :nextFirstResponder, :inputAccessoryView, :inputView, :reloadInputViews, :reloadInputViewsWithoutReset, :"canPerformAction:withSender:", :"touchesCancelled:withEvent:", :"motionEnded:withEvent:", :"touchesBegan:withEvent:", :"touchesMoved:withEvent:", :"touchesEnded:withEvent:", :"motionBegan:withEvent:", :"motionCancelled:withEvent:", :"remoteControlReceivedWithEvent:", :"mouseDragged:", :isFirstResponder, :canResignFirstResponder, :undoManager, :"mouseDown:", :"mouseExited:", :"mouseEntered:", :"scrollWheel:", :"mouseMoved:", :"mouseUp:", :firstResponder, :sessions, :help, :quit, :"repl:", :to_plist, :"Complex:", :Complex, :"Rational:", :Rational, :"enum_for:", :enum_for, :"to_enum:", :to_enum, :object_id, :__id__, :"define_singleton_method:", :define_singleton_method, :"public_method:", :"method:", :"extend:", :extend, :"respond_to_missing?:", :"respond_to?:", :respond_to?, :"public_send:", :public_send, :"send:", :send, :"__send__:", :__send__, :"instance_exec:", :instance_exec, :"instance_eval:", :instance_eval, :__callee__, :__method__, :tap, :"is_a?:", :"kind_of?:", :"instance_of?:", :"instance_variable_defined?:", :"instance_variable_set:", :"instance_variable_get:", :instance_variables, :"public_methods:", :public_methods, :"private_methods:", :private_methods, :"protected_methods:", :protected_methods, :"singleton_methods:", :singleton_methods, :"methods:", :methods, :inspect, :to_s, :untrusted?, :untrust, :trust, :frozen?, :freeze, :untaint, :tainted?, :taint, :__type__, :dup, :clone, :"<=>:", :"eql?:", :"!~:", :"=~:", :"===:", :nil?, :"!=:", :!, :"==:", :"equal?:", :selectionAffinity, :defaultAccessibilityTraits, :"accessibilitySetIdentification:", :"indexOfAccessibilityElement:", :"accessibilityElementAtIndex:", :accessibilityElementCount, :accessibilityIncrement, :accessibilityDecrement, :"accessibilityScroll:", :accessibilityPerformEscape, :accessibilityElementDidBecomeFocused, :accessibilityElementDidLoseFocus, :accessibilityElementIsFocused, :accessibilityFrame, :storedAccessibilityViewIsModal, :storedAccessibilityElementsHidden, :accessibilityHint, :accessibilityActivationPoint, :accessibilityTraits, :accessibilityLanguage, :accessibilityIdentifier, :accessibilityViewIsModal, :accessibilityElementsHidden, :storedAccessibilityTraits, :storedIsAccessibilityElement, :storedAccessibilityFrame, :storedAccessibilityActivationPoint, :"setAccessibilityElementsHidden:", :"setAccessibilityViewIsModal:", :"setAccessibilityHint:", :"setAccessibilityFrame:", :"setAccessibilityActivationPoint:", :"setAccessibilityTraits:", :"setIsAccessibilityElement:", :"setAccessibilityContainer:", :"setAccessibilityLanguage:", :"setAccessibilityIdentifier:", :accessibilityContainer, :accessibilityLabel, :"setAccessibilityValue:", :accessibilityValue, :"setAccessibilityLabel:", :isAccessibilityElement, :awakeFromNib, :classForPortCoder, :"replacementObjectForPortCoder:", :"methodDescriptionForSelector:", :"performSelectorOnMainThread:withObject:waitUntilDone:modes:", :"performSelector:onThread:withObject:waitUntilDone:modes:", :"performSelectorInBackground:withObject:", :"performSelector:onThread:withObject:waitUntilDone:", :"performSelectorOnMainThread:withObject:waitUntilDone:", :"performSelector:object:afterDelay:", :"performSelector:withObject:afterDelay:", :"performSelector:withObject:afterDelay:inModes:", :autoContentAccessingProxy, :classForCoder, :"replacementObjectForCoder:", :"awakeAfterUsingCoder:", :"implementsSelector:", :allowsWeakReference, :retainWeakReference, :classForKeyedArchiver, :"replacementObjectForKeyedArchiver:", :observationInfo, :"setObservationInfo:", :"willChange:valuesAtIndexes:forKey:", :"didChange:valuesAtIndexes:forKey:", :"willChangeValueForKey:withSetMutation:usingObjects:", :"didChangeValueForKey:withSetMutation:usingObjects:", :"didChangeValueForKey:", :"willChangeValueForKey:", :"removeObserver:forKeyPath:", :"addObserver:forKeyPath:options:context:", :"removeObserver:forKeyPath:context:", :"observeValueForKeyPath:ofObject:change:context:", :"setValuesForKeysWithDictionary:", :"dictionaryWithValuesForKeys:", :"setNilValueForKey:", :"validateValue:forKeyPath:error:", :"validateValue:forKey:error:", :"mutableArrayValueForKeyPath:", :"mutableArrayValueForKey:", :"mutableOrderedSetValueForKeyPath:", :"mutableOrderedSetValueForKey:", :"mutableSetValueForKeyPath:", :"mutableSetValueForKey:", :"setValue:forKeyPath:", :"valueForKeyPath:", :"valueForUndefinedKey:", :"setValue:forUndefinedKey:", :"valueForKey:", :"replacementObjectForArchiver:", :classForArchiver, :isNSValue__, :isNSString__, :isNSNumber__, :isNSArray__, :isNSDictionary__, :isNSData__, :isNSDate__, :isNSSet__, :isNSOrderedSet__, :isNSTimeZone__, :"CA_interpolateValues:::interpolator:", :"CA_distanceToValue:", :"CA_interpolateValue:byFraction:", :"CA_addValue:multipliedBy:", :CA_copyRenderValue, :CA_prepareRenderValue, :pep_onMainThread, :"pep_onOperationQueue:priority:", :"pep_onThread:immediateForMatchingThread:", :"pep_onThread:", :"pep_getInvocation:", :"pep_onOperationQueue:", :"pep_afterDelay:", :pep_onDetachedThread, :pep_onMainThreadIfNecessary, :releaseOnMainThread, :class, :"isEqual:", :hash, :retain, :release, :autorelease, :retainCount, :copy, :finalize, :"forwardInvocation:", :"isKindOfClass:", :"respondsToSelector:", :"doesNotRecognizeSelector:", :"performSelector:", :"performSelector:withObject:", :self, :mutableCopy, :debugDescription, :"forwardingTargetForSelector:", :"methodSignatureForSelector:", :superclass, :zone, :"performSelector:withObject:withObject:", :isProxy, :"isMemberOfClass:", :"conformsToProtocol:", :isFault, :"methodForSelector:"]
+	(main)>> 
+	
+	thats so much information to handle to understand what these do , iOS API docs on Dash is a better option, but you get what is possible
+	
+	delete: let us add a title to the message window
+	
+how do we identify the relevant methods
+
+    (main)>> def useful_methods(variable); variable.public_methods.select {|k|  k == k.downcase} - " ".methods ; end
+
+or change it into something memorable for you, I will define it as "um", I am typing again as alias method is not available as RubyMotion is still not a 100% ruby implementation
+
+    def um(variable); variable.public_methods.select {|k|  k == k.downcase} - " ".methods ; end
+
+    (main)>> um(hello)
+    (main)>> useful_methods(hello)
+    => [:table, :keyboard, :subtitle, :dismiss, :buttons, :layout, :context, :show, :title, :delegate, :message, :alpha, :window, :subviews, :superview, :origin, :extent, :bounds, :transform, :position, :frame, :charge, :tag, :layer]
+
+this is more manageable, what did that magic method do, since RubyMotion is using native Objective-C as primitive all the methods are visible and they follow camelCase and colon in methods. additionally i have removed common methods derived in any string instance
+
+let us hide the message from console
+
+     (main)>> hello.dismiss
+
+bring it back
+     (main)>> hello.show
+
+let us try few more properties
+     (main)>> hello.title =  "Title"
+     (main)>> hello.subtitle =  "Subtitle"
+     (main)>> hello.message =  "New Message"
+
+let us try something else
+
+
+     (main)>> hello.position
+     => #<TypeError: unrecognized runtime type `{CGPoint=ff}'
+
+we dont know what parameters are required but nothing big is lost, as the worst that might happen is the console crashes, but it is still a rare occassion.
+
+whatever code works fine on console gets added to your editor and then gets commited to you repository and you are making progress one line at a time.
+
+Think about doing it on Xcode, each compile would take its time, and would be not the best way to develop quickly.
+
+you dont need to perfect code which would run on the first run, you just need to focus on the task in hand
+
+there are more than one way of doing anything in nearly every technology, but when you are learning learn one way of doing it first and go forward, over a period you would be a learnt man and can justify which is better as experience teaches you
+
+
+
 WIP
