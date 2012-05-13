@@ -1,7 +1,9 @@
 
 # Freestyle writing is easier
 
+##this is my clipboard, everything written is liable to change, can be totally wrong, read it if you want to understand my state of mind
 
+## once the content is in a readable state will push it to chapters and make it part of future builds
 
 
 check your projects default configuration
@@ -77,6 +79,7 @@ app.device_family = [:iphone, :ipad]
 $ rake simulator device_family=ipad
 $ rake simulator device_family=iphone
 
+test retina apps
 
 ## how to delete apps in simulator
 
@@ -91,16 +94,60 @@ rake simulator clean=1 #fails for me
 cat delete_all_from_simulator.sh
 cd ~/Library/Application\ Support/iPhone\ Simulator/5.1/Applications
 ###ls to list all the apps, delete the apps which you want all zap all the files/folders inside it
+ rm -rf 
+
+http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator
 
 source
 
 http://www.rubymotion.com/developer-center/guides/project-management/
 
 
-add icons to your app
+## how to add icons to your app
+
+different icon sizes for different designs
 
 
+
+## taking screenshots
 
 ## how to detect internet connection availability
 
 
+
+
+
+## how will RubyMotion evolve as new iOS 6 will be announced in WWDC in June
+
+RubyMotion is installed in this folder /Library/RubyMotion
+I read the code
+
+bin/ very few files are compiled, 
+
+all files inside the data folder are xml and the detail and volume shows it has been build with tools for parsing iOS API and building the XML file
+
+so within a short term of iOS 6 release is available it would be ported, tested and released
+
+
+Most the of the following topic are curiosity in me to build iOS apps not specific for RubyMotion
+
+
+## non english apps
+
+
+## change location in iOS simulator programatically
+
+
+## any good reference apps for testing
+
+## testing with lower speed for simulating network speeds
+http://pmilosev-notes.blogspot.in/2011/02/ios-simulator-testing-over-different.html
+
+
+## simulator crash logs
+
+
+http://stackoverflow.com/questions/1864479/crash-logs-generated-by-iphone-simulator
+
+
+crash reports are found in ~/Library/Logs/DiagnosticReports
