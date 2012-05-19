@@ -97,4 +97,11 @@ after downloading go to preferences and enable docsets and choose the libraries 
 * I found this gem from Steven Ringo on RubyMotion Group
 
 
+## read 
+
+
+
+
+
+
 WIP

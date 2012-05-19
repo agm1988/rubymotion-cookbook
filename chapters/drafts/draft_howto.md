@@ -151,3 +151,19 @@ http://stackoverflow.com/questions/1864479/crash-logs-generated-by-iphone-simula
 
 
 crash reports are found in ~/Library/Logs/DiagnosticReports
+
+so if your app has crashed and does not give you much information, crash logs can be a good place to investigate. while submitting support ticket via please include all possible information
+
+
+
+
+
+opening in other registered applications
+
+UIApplication.sharedApplication.openURL(NSURL.URLWithString("http://www.covano.com/"))
+UIApplication.sharedApplication.openURL(NSURL.URLWithString("http://maps.google.com/maps?q=1 Infinite Loop, Cupertino, CA 95014"))
+UIApplication.sharedApplication.openURL(NSURL.URLWithString("tel://919600072457"))
+UIApplication.sharedApplication.openURL(NSURL.URLWithString("mailto:email@email.com?subject=Hello"))
+
+
+
