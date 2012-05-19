@@ -1,0 +1,8 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+Motion::Project::App.setup do |app|
+  app.name = 'Midnight Timer'
+  app.device_family = :iphone # [:iphone, :ipad]
+  app.files += Dir.glob('./lib/**.rb')
+end

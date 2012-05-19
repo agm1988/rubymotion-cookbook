@@ -1,0 +1,10 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'wallpaper'
+  app.device_family = :iphone
+  app.files += Dir.glob('./lib/**.rb')
+  app.icons << 'steve-jobs-icon.png'
+end

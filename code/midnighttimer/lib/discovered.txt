@@ -1,0 +1,54 @@
+project I have read
+
+
+#User Settings
+# user settings project has tests for record saving
+# no ui just a module to save the settings
+
+rake spec
+#crashes for now
+
+
+
+
+
+
+
+#wave
+
+# in rake file of wave project
+
+Rake::Task['build:simulator'].enhance ['build:compile_resources']
+Rake::Task['build:device'].enhance ['build:compile_resources']
+
+namespace :build do
+  desc "Compiles .xib and .storyboard files in ./ui and places them in ./resources"
+  task :compile_resources do
+    Dir.glob("ui/**/*.{storyboard,xib}").each do |r|
+      extension = File.extname(r)
+      basename = File.basename(r, extension)
+      
+      new_extension = (extension == ".xib") ? ".nib" : ".storyboardc"
+      new_filename = basename + new_extension
+      
+      system "ibtool --compile resources/#{new_filename} #{r}"
+    end
+  end
+end
+
+
+
+
+
+
+
+
+#word game
+  
+class Board < Array
+
+    def to_s
+      collect {|s| s.split(//).join(' ')}.join("\n")
+    end
+
+  end  
