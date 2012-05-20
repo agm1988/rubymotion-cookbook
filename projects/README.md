@@ -11,7 +11,7 @@
 
 # list of all the projects included
 
-     [github link](https://github.com/railsfactory/rubymotion-cookbook/blob/master/projects/projects.list)
+[https://github.com/railsfactory/rubymotion-cookbook/blob/master/projects/projects.list](https://github.com/railsfactory/rubymotion-cookbook/blob/master/projects/projects.list)
 
 # downloading and running all the projects
 Go grab for a coffee, it will take about 30 minutes for this task, this will download 71 projects
