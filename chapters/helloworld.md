@@ -356,7 +356,7 @@ Let us try something else
 
 We dont know what parameters are required but nothing big is lost, as the worst that might happen is the console crashes, but it is still a rare occasion.
 
-Whatever code works fine on console gets added to your editor and then gets commited to you repository and you are making progress one line at a time.
+Whatever code works fine on console gets added to your editor and then gets committed to you repository and you are making progress one line at a time.
 
 Think about doing it on Xcode, each compile would take its time, and would be not the best way to develop quickly.
 
