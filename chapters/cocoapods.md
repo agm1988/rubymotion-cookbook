@@ -32,7 +32,6 @@ But in RubyMotion, we have a even better way
 
 http://www.rubymotion.com/developer-center/articles/cocoapods/
 
-
     sudo gem install motion-cocoapods
 
 
@@ -73,6 +72,4 @@ the projects folder if you clone all the projects you can find example of follow
     dependency 'NanoStore'
     dependency 'Sparrow-Framework'
     dependency 'GDataXML-HTML'
-
-
 
