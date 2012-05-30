@@ -1,25 +1,25 @@
 
 # App Store
 
-# WIP
+## WIP
 
-# submissions
+## submissions
 
-# icons
+## icons
 
-# app screenshots
+## app screenshots
 
-# content
+## content
 
-# testing on device
+## testing on device
 
-# Tracking
+## Tracking
 
-# Analytics
+## Analytics
 
-# Updates
+## Updates
 
-# promoting your app 
+## promoting your app 
 
 
 WIP

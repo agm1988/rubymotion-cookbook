@@ -24,7 +24,7 @@ This is a longer version and shows a full cycle of building a app from scratch, 
 
 ## Forum
 
-this is the place to go and find solutions for your problems, 
+This is the place to go and find solutions for your problems, 
 
 [RubyMotion Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubymotion)
 

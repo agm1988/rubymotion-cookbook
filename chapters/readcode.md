@@ -54,20 +54,22 @@ when you have updating the RubyMotion , it would be better to clean the artifact
       sh clean_all.sh
 
 # Update all the projects
+
 I check new code commits every few hours, you can do it once in a while.
 
       sh update.sh
 
-occasionally if project is close sourced or renamed or deleted update will break the update, you can manually fix it or check the next step
+Occasionally if project is close sourced or renamed or deleted update will break the update, you can manually fix it or check the next step
 
       git pull
 
 
-update to get the latest projects, modifications etc
+Update to get the latest projects, modifications etc
 
 
 # Find the project
-projects and URL are case sensitive so it makes sense to find the project you are looking for
+
+Projects and URL are case sensitive so it makes sense to find the project you are looking for
 
       sh find.sh keyword
       sh find.sh bubble
@@ -75,7 +77,8 @@ projects and URL are case sensitive so it makes sense to find the project you ar
 
 
 # Search within project code
-if you have good text editor like textmate _SHIFT+COMMAND+F_ find in project will do the trick. You can use this shell command to find what you are looking for
+
+If you have good text editor like textmate _SHIFT+COMMAND+F_ find in project will do the trick. You can use this shell command to find what you are looking for
 
       sh search.sh  JSON
       .......lots of lines
@@ -100,7 +103,7 @@ After downloading go to preferences and enable docsets and choose the libraries 
 
 ## Where to find interesting code
 
-when you are exploring a new project, the sequence which I go through
+When you are exploring a new project, the sequence which I go through
 
 * if there is a app folder and rake file, try running the app, thats the easiest approach, once you see a running app you get a idea of what is in store.
 * read the Rakefile, it has configuration information, what libraries the app uses, what cocoapods that is included in the project
@@ -113,7 +116,8 @@ when you are exploring a new project, the sequence which I go through
 
 
 # Commands and Configuration
-check your projects default configuration
+
+Check your projects default configuration.
 
    $ rake -T
    rake archive              # Create archives for everything
@@ -162,15 +166,17 @@ You can change these settings by overriding the defaults in your rakefile
 # Answers to Common Questions
 
 ## how to get a app run as a iPad app?
-app.device_family  = :ipad # for iPad 
+
+      app.device_family  = :ipad # for iPad 
 
 ## how to compile the app to support both iPhone and iPad, Universal Applications?
-app.device_family = [:iphone, :ipad]
+
+      app.device_family = [:iphone, :ipad]
 
 ## how to run the Universal application is a specific mode?
 
-$ rake simulator device_family=ipad
-$ rake simulator device_family=iphone
+      $ rake simulator device_family=ipad
+      $ rake simulator device_family=iphone
 
 
 
@@ -178,6 +184,7 @@ $ rake simulator device_family=iphone
 # Simulator
 
 ## Troubleshooting Crashes
+
 Most apps in the projects.list are work in progress, most apps would run out of the box, but some of them crash before running in simulator, others on edge cases, though RubyMotion provides a good stack trace but there are times when the error is tough to debug. Reading the crash logs is a good way to debug those
 
 ##  Where to find the crash logs
@@ -190,7 +197,7 @@ Crash reports are found in ~/Library/Logs/DiagnosticReports
 So if your app has crashed and does not give you much information, crash logs can be a good place to investigate. while submitting support ticket via please include all possible information
 
 
-## how to delete apps in simulator
+## How to delete apps in simulator
 
 Simulator behaves like the regular iPhone, so you can basically, click and hold for couple of seconds and all the apps will start shaking/wiggline and you can delete the apps you want to delete. but if have use the clone_all and run_all scripts you know there would be over 50 apps installed on your simulator
 
@@ -202,6 +209,7 @@ rake simulator clean=1 #fails for me
 
 cat delete_all_from_simulator.sh
 cd ~/Library/Application\ Support/iPhone\ Simulator/5.1/Applications
+
 ###ls to list all the apps, delete the apps which you want all zap all the files/folders inside it
  rm -rf 
 

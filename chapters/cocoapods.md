@@ -1,19 +1,20 @@
-#WIP
+
 # Cocoapods: using Objective C third party libraries/frameworks
 
-https://github.com/CocoaPods/CocoaPods
+[https://github.com/CocoaPods/CocoaPods](https://github.com/CocoaPods/CocoaPods)
 
 CocoaPods manages library dependencies for your Xcode project
 
- http://cocoapods.org/ 
+[http://cocoapods.org/](http://cocoapods.org/)
 
-# installation
+## installation
 
-   sudo gem install cocoapods
-   pod setup
+     sudo gem install cocoapods
+   
+     pod setup
    
 
-# finding pods
+## finding pods
 
   $ pod search asi
     ==> ASIHTTPRequest (1.8.1)
@@ -30,7 +31,7 @@ the xcode way of managing dependencies is like Gemfiles, create a pod file and i
 But in RubyMotion, we have a even better way
 
 
-http://www.rubymotion.com/developer-center/articles/cocoapods/
+[http://www.rubymotion.com/developer-center/articles/cocoapods/](http://www.rubymotion.com/developer-center/articles/cocoapods/)
 
     sudo gem install motion-cocoapods
 
@@ -52,12 +53,13 @@ The next time you build your project, the JSONKit sources will be downloaded the
 
 
 
-# list of pods available
+## list of pods available
 
-https://github.com/CocoaPods/Specs
+[https://github.com/CocoaPods/Specs](https://github.com/CocoaPods/Specs)
 
 
-the projects folder if you clone all the projects you can find example of following pods
+The projects folder if you clone all the projects you can find example of following pods
+
     dependency 'AFNetworking'
     dependency 'SSPullToRefresh'
     dependency 'ASIHTTPRequest'
@@ -73,3 +75,4 @@ the projects folder if you clone all the projects you can find example of follow
     dependency 'Sparrow-Framework'
     dependency 'GDataXML-HTML'
 
+check appendix for the exhaustive list
