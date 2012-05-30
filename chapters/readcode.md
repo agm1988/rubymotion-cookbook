@@ -22,49 +22,6 @@ I have tried to automate the process of downloading all the new projects for you
 It will take some time as about 100mb is downloaded directly from the repositories.
 
 
-## Projects which is being checked out are
-
-https://github.com/seanho/Currency.git
-https://github.com/samchandra/Fonts.git
-https://github.com/stiller/LOLCatApp.git
-https://github.com/locousobscura/LastTime-iOS.git
-https://github.com/ps2/MotionGL.git
-https://github.com/caike/MotionHello.git
-https://github.com/siuying/NanoStoreInMotion.git
-https://github.com/rounders/RestKitTest.git
-https://github.com/siuying/RubyMotion-PocketCoreImage.git
-https://github.com/tnantoka/RubyMotionApps.git
-https://github.com/HipByte/RubyMotionSamples.git
-https://github.com/gpasq/RubyMotionZXingExample.git
-https://github.com/seanho/SimpleView.git
-https://github.com/siuying/SparrowInMotion.git
-https://github.com/rjowens/TableViewPullRefresh.git
-https://github.com/dalacv/WordSearcher.git
-https://github.com/anydiem/cocosmotion.git
-https://github.com/evanphx/distance_between.git
-https://github.com/aaronfeng/facebook-auth-ruby-motion-example.git
-https://github.com/jamesjn/fast_imgur_emailer-motion-ios.git
-https://github.com/latompa/griddler.git
-https://github.com/thbar/learning-rubymotion.git
-https://github.com/tvandervossen/motion-webview.git
-https://github.com/rjfranco/pragmatic-rubymotion.git
-https://github.com/clayallsopp/remote_model.git
-https://github.com/seanlilmateus/rmdialog.git
-https://github.com/macfanatic/rmotion.git
-https://github.com/ryw/rubymotion-experiments.git
-https://github.com/benr75/rubymotion-presentation.git
-https://github.com/cebartling/rubymotion-spikes.git
-https://github.com/MarkVillacampa/rubymotion-tabbar.git
-https://github.com/hellopatrick/wave.git
-https://github.com/spllr/TwitterApp.git
-https://github.com/siuying/hpple-motion.git
-https://github.com/rjowens/SplitViewControllerExample.git
-https://github.com/eatcpcks/rubymotion-bars.git
-https://github.com/malkomalko/motion-layouts.git
-https://github.com/sakisakira/IBOutletActionRubyMotion.git
-https://github.com/nlehuen/MotionCalc.git
-https://github.com/Watson1978/RubyMotion-Benchmark.git
-https://github.com/mordaroso/rubymotion-keychain-example.git
 
 
 ## Reading the code and Running the apps

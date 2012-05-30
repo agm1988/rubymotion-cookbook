@@ -12,7 +12,12 @@ MD = pages/index.md \
 	 chapters/helloworld.md \
 	 chapters/readcode.md \
 	 chapters/bestpractices.md \
-	 chapters/wip.md 
+     chapters/cocoapods.md \
+     chapters/sqlite.md \
+     chapters/testflight.md \
+	 chapters/appstore.md \
+	 chapters/wip.md \
+     chapters/appendix.md
 #	 chapters/controllers.md \
 #	 chapters/views.md \
 #	 chapters/tableview.md \
@@ -25,11 +30,8 @@ MD = pages/index.md \
 #	 chapters/graphics.md \
 #	 chapters/addressbook.md \
 #	 chapters/corelocation.md \
-#	 chapters/cocoapods.md \
 #	 chapters/facebook.md \
 #	 chapters/restfulapi.md \
-#	 chapters/testflight.md \
-#	 chapters/appstore.md
 
 HTML = $(MD:.md=.html)
 
