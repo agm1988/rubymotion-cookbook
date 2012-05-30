@@ -84,3 +84,10 @@ UIApplication.sharedApplication.openURL(NSURL.URLWithString("mailto:email@email.
 
 
 
+
+
+
+
+# share stored content inside app to itunes
+in rakefile
+app.info_plist['UIFileSharingEnabled'] = true

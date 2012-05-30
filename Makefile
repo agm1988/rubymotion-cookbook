@@ -12,23 +12,24 @@ MD = pages/index.md \
 	 chapters/helloworld.md \
 	 chapters/readcode.md \
 	 chapters/bestpractices.md \
-	 chapters/controllers.md \
-	 chapters/views.md \
-	 chapters/tableview.md \
-	 chapters/repl.md \
-	 chapters/corelocation.md \
-	 chapters/coredata.md \
-	 chapters/camera.md \
-	 chapters/audio.md \
-	 chapters/video.md \
-	 chapters/graphics.md \
-	 chapters/addressbook.md \
-	 chapters/corelocation.md \
-	 chapters/cocoapods.md \
-	 chapters/facebook.md \
-	 chapters/restfulapi.md \
-	 chapters/testflight.md \
-	 chapters/appstore.md
+	 chapters/wip.md 
+#	 chapters/controllers.md \
+#	 chapters/views.md \
+#	 chapters/tableview.md \
+#	 chapters/repl.md \
+#	 chapters/corelocation.md \
+#	 chapters/coredata.md \
+#	 chapters/camera.md \
+#	 chapters/audio.md \
+#	 chapters/video.md \
+#	 chapters/graphics.md \
+#	 chapters/addressbook.md \
+#	 chapters/corelocation.md \
+#	 chapters/cocoapods.md \
+#	 chapters/facebook.md \
+#	 chapters/restfulapi.md \
+#	 chapters/testflight.md \
+#	 chapters/appstore.md
 
 HTML = $(MD:.md=.html)
 
