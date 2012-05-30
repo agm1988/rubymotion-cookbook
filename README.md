@@ -1,5 +1,7 @@
-RubyMotion Cookbook
+RubyMotion Book
 ===================
+
+last release on 30th May 2012
 
 
 Work in Progress, chapter structure and content is subject to change as it is in very preliminary stages

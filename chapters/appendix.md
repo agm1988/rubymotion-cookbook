@@ -1,107 +1,113 @@
 # Appendix
 
-# projects which are included
-
-https://github.com/mattetti/BubbleWrap.git
-https://github.com/mattgreen/spry.git
-https://github.com/samchandra/Fonts.git
-https://github.com/stiller/LOLCatApp.git
-https://github.com/locousobscura/LastTime-iOS.git
-https://github.com/ps2/MotionGL.git
-https://github.com/caike/MotionHello.git
-https://github.com/siuying/NanoStoreInMotion.git
-https://github.com/rounders/RestKitTest.git
-https://github.com/siuying/RubyMotion-PocketCoreImage.git
-https://github.com/tnantoka/RubyMotionApps.git
-https://github.com/HipByte/RubyMotionSamples.git
-https://github.com/gpasq/RubyMotionZXingExample.git
-https://github.com/seanho/SimpleView.git
-https://github.com/siuying/SparrowInMotion.git
-https://github.com/rjowens/TableViewPullRefresh.git
-https://github.com/dalacv/WordSearcher.git
-https://github.com/anydiem/cocosmotion.git
-https://github.com/evanphx/distance_between.git
-https://github.com/aaronfeng/facebook-auth-ruby-motion-example.git
-https://github.com/jamesjn/fast_imgur_emailer-motion-ios.git
-https://github.com/latompa/griddler.git
-https://github.com/thbar/learning-rubymotion.git
-https://github.com/tvandervossen/motion-webview.git
-https://github.com/rjfranco/pragmatic-rubymotion.git
-https://github.com/clayallsopp/remote_model.git
-https://github.com/seanlilmateus/rmdialog.git
-https://github.com/macfanatic/rmotion.git
-https://github.com/ryw/rubymotion-experiments.git
-https://github.com/benr75/rubymotion-presentation.git
-https://github.com/cebartling/rubymotion-spikes.git
-https://github.com/MarkVillacampa/rubymotion-tabbar.git
-https://github.com/hellopatrick/wave.git
-https://github.com/siuying/hpple-motion.git
-https://github.com/rjowens/SplitViewControllerExample.git
-https://github.com/eatcpcks/rubymotion-bars.git
-https://github.com/malkomalko/motion-layouts.git
-https://github.com/sakisakira/IBOutletActionRubyMotion.git
-https://github.com/nlehuen/MotionCalc.git
-https://github.com/Watson1978/RubyMotion-Benchmark.git
-https://github.com/mordaroso/rubymotion-keychain-example.git
-https://github.com/makzan/RubyMotion-USD-to-MOP-Convertor.git
-https://github.com/mdks/rm-redgreen.git
-https://github.com/matsimitsu/itrakt_motion.git
-https://github.com/makzan/rubymotion-pan-view-example.git
-https://github.com/AaronH/RubyMotion-UserSettings.git
-https://github.com/benr75/rubymotion-push-notification.git
-https://github.com/clarkware/Commotion.git
-https://github.com/adelevie/RubyMotionParse.git
-https://github.com/jeremyruppel/lotion.git
-https://github.com/siuying/UserSettingsModel.git
-https://github.com/ryw/rubymotion-experiments.git
-https://github.com/timidri/RandomCatz.git
-https://github.com/mjmsmith/rubymotion-times.git
-https://github.com/andrew/lightning.git
-https://github.com/jaimeiniesta/rubymotion-todo.git
-https://github.com/fearoffish/rubymotion-starter-kits.git
-https://github.com/geraudmathe/rubymotion-foursquare.git
-https://github.com/netmute/MotionHighscores.git
-https://github.com/rjowens/FormattedTextView.git
-https://github.com/rcyrus/snipmate-snippets-rubymotion.git
-https://github.com/collectiveidea/rubymotion-parsedotcom-chat.git
-https://github.com/toamitkumar/webview.git
-https://github.com/jwbuurlage/TicTacMotion.git
-https://github.com/alexeypro/birdemia.git
-https://github.com/dreimannzelt/motion-kvo.git
-https://github.com/midwire/HughesNetMeter.git
-https://github.com/lukeroberts1990/Motion-iPad-Gallery.git
-https://github.com/RayHightower/fizzbuzzrm.git
-https://github.com/railsfactory/rubymotion-sqlite.git
-https://github.com/jaimeiniesta/rubymotion-nerd.git
-https://github.com/spllr/RubyMotion-TwitterApp.git
-https://github.com/rashmi14yadav/profile.git
-https://github.com/eliduke/COLORS.git
-https://github.com/seanlilmateus/CoolButton.git
-https://github.com/getwilds/iOS.git
-https://github.com/clayallsopp/Routable.git
-https://github.com/rcyrus/LiteBriteTouch.git
-https://github.com/RobertLowe/Admob-Hpple-Example.git
-https://github.com/ericdagenais/GPUImage-RubyMotion-Example.git
-https://github.com/siuying/RubyMotionCocos2d-Static.git
-https://github.com/ericdagenais/AFNetworking-RubyMotion-Example.git
-https://github.com/derailed/rubios.git
-https://github.com/siuying/wakizashi.git
-https://github.com/dreimannzelt/motion-record.git
-https://github.com/damassi/RubyMotion-Storyboard-Example.git
-https://github.com/geihsler/braille.git
-https://github.com/kattrali/emo-motion.git
-https://github.com/jodonnell/BadalaBoop.git
-https://github.com/seanho/CurrencyApp-RubyMotion.git
-https://github.com/IconoclastLabs/Chatoms-RubyMotion.git
-https://github.com/pcg79/PtTimer.git
+* Included Projects
+* CocoaPod list
 
 
+# Projects which are included rubymotion-cookbook repository
+
+       https://github.com/mattetti/BubbleWrap.git
+       https://github.com/mattgreen/spry.git
+       https://github.com/samchandra/Fonts.git
+       https://github.com/stiller/LOLCatApp.git
+       https://github.com/locousobscura/LastTime-iOS.git
+       https://github.com/ps2/MotionGL.git
+       https://github.com/caike/MotionHello.git
+       https://github.com/siuying/NanoStoreInMotion.git
+       https://github.com/rounders/RestKitTest.git
+       https://github.com/siuying/RubyMotion-PocketCoreImage.git
+       https://github.com/tnantoka/RubyMotionApps.git
+       https://github.com/HipByte/RubyMotionSamples.git
+       https://github.com/gpasq/RubyMotionZXingExample.git
+       https://github.com/seanho/SimpleView.git
+       https://github.com/siuying/SparrowInMotion.git
+       https://github.com/rjowens/TableViewPullRefresh.git
+       https://github.com/dalacv/WordSearcher.git
+       https://github.com/anydiem/cocosmotion.git
+       https://github.com/evanphx/distance_between.git
+       https://github.com/aaronfeng/facebook-auth-ruby-motion-example.git
+       https://github.com/jamesjn/fast_imgur_emailer-motion-ios.git
+       https://github.com/latompa/griddler.git
+       https://github.com/thbar/learning-rubymotion.git
+       https://github.com/tvandervossen/motion-webview.git
+       https://github.com/rjfranco/pragmatic-rubymotion.git
+       https://github.com/clayallsopp/remote_model.git
+       https://github.com/seanlilmateus/rmdialog.git
+       https://github.com/macfanatic/rmotion.git
+       https://github.com/ryw/rubymotion-experiments.git
+       https://github.com/benr75/rubymotion-presentation.git
+       https://github.com/cebartling/rubymotion-spikes.git
+       https://github.com/MarkVillacampa/rubymotion-tabbar.git
+       https://github.com/hellopatrick/wave.git
+       https://github.com/siuying/hpple-motion.git
+       https://github.com/rjowens/SplitViewControllerExample.git
+       https://github.com/eatcpcks/rubymotion-bars.git
+       https://github.com/malkomalko/motion-layouts.git
+       https://github.com/sakisakira/IBOutletActionRubyMotion.git
+       https://github.com/nlehuen/MotionCalc.git
+       https://github.com/Watson1978/RubyMotion-Benchmark.git
+       https://github.com/mordaroso/rubymotion-keychain-example.git
+       https://github.com/makzan/RubyMotion-USD-to-MOP-Convertor.git
+       https://github.com/mdks/rm-redgreen.git
+       https://github.com/matsimitsu/itrakt_motion.git
+       https://github.com/makzan/rubymotion-pan-view-example.git
+       https://github.com/AaronH/RubyMotion-UserSettings.git
+       https://github.com/benr75/rubymotion-push-notification.git
+       https://github.com/clarkware/Commotion.git
+       https://github.com/adelevie/RubyMotionParse.git
+       https://github.com/jeremyruppel/lotion.git
+       https://github.com/siuying/UserSettingsModel.git
+       https://github.com/ryw/rubymotion-experiments.git
+       https://github.com/timidri/RandomCatz.git
+       https://github.com/mjmsmith/rubymotion-times.git
+       https://github.com/andrew/lightning.git
+       https://github.com/jaimeiniesta/rubymotion-todo.git
+       https://github.com/fearoffish/rubymotion-starter-kits.git
+       https://github.com/geraudmathe/rubymotion-foursquare.git
+       https://github.com/netmute/MotionHighscores.git
+       https://github.com/rjowens/FormattedTextView.git
+       https://github.com/rcyrus/snipmate-snippets-rubymotion.git
+       https://github.com/collectiveidea/rubymotion-parsedotcom-chat.git
+       https://github.com/toamitkumar/webview.git
+       https://github.com/jwbuurlage/TicTacMotion.git
+       https://github.com/alexeypro/birdemia.git
+       https://github.com/dreimannzelt/motion-kvo.git
+       https://github.com/midwire/HughesNetMeter.git
+       https://github.com/lukeroberts1990/Motion-iPad-Gallery.git
+       https://github.com/RayHightower/fizzbuzzrm.git
+       https://github.com/railsfactory/rubymotion-sqlite.git
+       https://github.com/jaimeiniesta/rubymotion-nerd.git
+       https://github.com/spllr/RubyMotion-TwitterApp.git
+       https://github.com/rashmi14yadav/profile.git
+       https://github.com/eliduke/COLORS.git
+       https://github.com/seanlilmateus/CoolButton.git
+       https://github.com/getwilds/iOS.git
+       https://github.com/clayallsopp/Routable.git
+       https://github.com/rcyrus/LiteBriteTouch.git
+       https://github.com/RobertLowe/Admob-Hpple-Example.git
+       https://github.com/ericdagenais/GPUImage-RubyMotion-Example.git
+       https://github.com/siuying/RubyMotionCocos2d-Static.git
+       https://github.com/ericdagenais/AFNetworking-RubyMotion-Example.git
+       https://github.com/derailed/rubios.git
+       https://github.com/siuying/wakizashi.git
+       https://github.com/dreimannzelt/motion-record.git
+       https://github.com/damassi/RubyMotion-Storyboard-Example.git
+       https://github.com/geihsler/braille.git
+       https://github.com/kattrali/emo-motion.git
+       https://github.com/jodonnell/BadalaBoop.git
+       https://github.com/seanho/CurrencyApp-RubyMotion.git
+       https://github.com/IconoclastLabs/Chatoms-RubyMotion.git
+       https://github.com/pcg79/PtTimer.git
 
 
 
 
 
-# a complete list of cocoapods available as of 30th May 2012
+
+
+# Complete list of CocoaPods 
+
+* As of 30th May 2012
 
 
 
