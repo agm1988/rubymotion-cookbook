@@ -91,3 +91,46 @@ UIApplication.sharedApplication.openURL(NSURL.URLWithString("mailto:email@email.
 # share stored content inside app to itunes
 in rakefile
 app.info_plist['UIFileSharingEnabled'] = true
+
+
+
+
+
+
+
+[http://epic.net/labs/?p=230](http://epic.net/labs/?p=230)
+RubyMotion: Debugging Objective-C
+
+
+Following the release of RubyMotion we can finally talk a bit about it (if you haven’t yet, I definitively encourage you to check it out!)
+
+For one of our upcoming project (super ultra top-secret, but you can see the icon here  ;) we need to mix a bit of custom Objective-C in the project. “Vendoring” the project in RM is a breeze but due to the complexity of this particular piece of code (a custom version of GPUImage), NSLog is not enough for debugging.
+
+Fortunately, you can use Xcode to debug the Objective-C part super easily. Just start your app in the simulator with rake and open your vendor project in Xcode.
+
+From there, make sure you selected iPhone/iPad simulator as a target and don’t click on “Run”
+
+
+
+Open “Product > Attach to process” and select your app in the process list
+
+
+Note that, as it runs in the simulator, your app won’t appear in the “Applications” group but in the “System” group.
+
+Once done, just set your breakpoints, watches, … as you usually would. Everything should work as expected.
+
+Have fun with RubyMotion, we sure do!
+
+
+
+
+
+[http://blog.shinetech.com/2011/06/23/ci-with-jenkins-for-ios-apps-build-distribution-via-testflightapp-tutorial/](http://blog.shinetech.com/2011/06/23/ci-with-jenkins-for-ios-apps-build-distribution-via-testflightapp-tutorial/)
+
+continuous integration with jenkins
+
+
+
+waxsim
+
+http://cocoamanifest.net/articles/2012/04/xcode-4-3-fix-for-simulating-from-the-command-line.html
