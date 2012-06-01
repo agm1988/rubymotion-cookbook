@@ -7,6 +7,7 @@ PDF_FLAGS = --fontsize 9.0 \
 			--no-toc
 
 MD = pages/index.md \
+     chapters/TOC.md \
 	 chapters/installation.md \
 	 chapters/gettingstarted.md \
 	 chapters/helloworld.md \
@@ -17,6 +18,8 @@ MD = pages/index.md \
      chapters/testflight.md \
 	 chapters/appstore.md \
 	 chapters/wip.md \
+	 chapters/cookbook/first_run.md \
+	 chapters/cookbook/splash_screen.md \
      chapters/appendix.md
 #	 chapters/controllers.md \
 #	 chapters/views.md \
