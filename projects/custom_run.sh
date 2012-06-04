@@ -1,3 +1,5 @@
+#!/bin/bash -ex
+
 dir="$PWD"
 
 

@@ -1,3 +1,4 @@
+#!/bin/bash -ex
 
 exists=( $(cat projects.list | grep -i $1))
 
