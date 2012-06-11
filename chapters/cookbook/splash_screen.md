@@ -9,7 +9,7 @@ Create a image in resources directory "Defaults.png" this is case sensitive.
 
 Add sleep(duration) as the first line inside your app delegate 
 
-```
+```ruby
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     sleep(3) 
