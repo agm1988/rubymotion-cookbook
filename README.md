@@ -22,6 +22,8 @@ What I learnt by reading and testing rubymotion code from other developers, shar
 
  - A Senthil Nayagam ([railsfactory](http://github.com/railsfactory))
  - Aravind Muthukumaraswamy, created the book cover
+ - Kirubakaran, [site](rubymotionapps.com)
+ - Ryan Walker, [@ryw](https://github.com/ryw/) 
 
 
 
