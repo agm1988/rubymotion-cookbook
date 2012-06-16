@@ -1,0 +1,16 @@
+#!/usr/bin/expect
+
+set timeout 20
+
+spawn "./run_all.sh"
+
+set count 100;
+while {$count > 0 } {
+puts "count : $count\n";
+set count [expr $count-1];
+expect "(main)>" { send "puts 'hello' \n exit \n" }
+}
+
+
+# expect "(main)>" { send "exit \n" }
+interact
